@@ -1,3 +1,6 @@
+#Hvis du ikke skjønner det, sorry. Var litt hodebry, så du får tenke litt selv også :D
+
+
 def addisjon(number):
     accumulator=0
     for i in range(1,number+1):
