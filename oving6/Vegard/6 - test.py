@@ -19,18 +19,18 @@ def intro_text():
  
 
 def main():
-  answer = "ikke hade" # Sørger for at while-løkka kjører første gang
+  answer = "ikke hade" # SÃ¸rger for at while-lÃ¸kka kjÃ¸rer fÃ¸rste gang
  
-  questions = ['Hva gjør du', 'Hvordan går det', 'Hvorfor heter du',
-              'Liker du å hete', 'Føler du deg bra', 'Hva har du gjort idag',
-              'Hva tenker du om framtida', 'Hva gjør deg glad', 'Hva gjør deg trist']
+  questions = ['Hva gjÃ¸r du', 'Hvordan gÃ¥r det', 'Hvorfor heter du',
+              'Liker du Ã¥ hete', 'FÃ¸ler du deg bra', 'Hva har du gjort idag',
+              'Hva tenker du om framtida', 'Hva gjÃ¸r deg glad', 'Hva gjÃ¸r deg trist']
  
   follow_ups = ['Hvorfor sier du', 'Hva mener du med', 'Hvor lenge har du sagt',
                'Hvilke tanker har du om', 'Kan du si litt mer om',
-               'Når tenkte du første gang på']
+               'NÃ¥r tenkte du fÃ¸rste gang pÃ¥']
 
-  responses = ['Fint du sier det', 'Det skjønner jeg godt', 'Så dumt da', 'Føler meg også sånn',
-              'Blir trist av det du sier', 'Så bra', 'Du er jammen frekk']
+  responses = ['Fint du sier det', 'Det skjÃ¸nner jeg godt', 'SÃ¥ dumt da', 'FÃ¸ler meg ogsÃ¥ sÃ¥nn',
+              'Blir trist av det du sier', 'SÃ¥ bra', 'Du er jammen frekk']
 
   print(intro_text())
 
@@ -38,8 +38,8 @@ def main():
  
   while answer != "hade":
 
-        spørmål = pick_sentence(questions)
-        print_sentence(spørmål , navn , '?')    
+        spÃ¸rmÃ¥l = pick_sentence(questions)
+        print_sentence(spÃ¸rmÃ¥l , navn , '?')    
 
         answer = input('Svar: ')
 
